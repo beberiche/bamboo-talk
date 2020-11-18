@@ -1,0 +1,63 @@
+footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+
+.nav-bar {
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.nav-bar > ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_icon {
+  font-size: 2em;
+}
+
+.nav_icon > a > i {
+  color: var(--green);
+}
+
+.nav_icon:nth-child(2) {
+  position: relative;
+}
+
+.nav_notification {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green);
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav_icon:nth-child(4) {
+  position: relative;
+}
+
+.nav_dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green);
+  position: absolute;
+  left: 35px;
+  bottom: 35px;
+}

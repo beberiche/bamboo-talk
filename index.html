@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="styles.css
+      href="/css/styles.css
     "
     />
-    <title>Document</title>
+    <title>BamBOO</title>
   </head>
   <script
     src="https://kit.fontawesome.com/eca0aee1de.js"
@@ -30,28 +30,30 @@
       </div>
     </header>
     <main>
-      <section>
-        <h2 class="mid_title">Welcome to BamBooouu🌲</h2>
-        <p class="mid_text">
+      <section class="login_screen">
+        <h2 class="login_title">Welcome to BamBoo 🌲</h2>
+        <p class="login_text">
           If you have a <strong>bamboo id</strong>, please write your email or
           phone number.
         </p>
       </section>
-      <form>
+      <form action="friends.html" method="get">
         <input
-          class="mid_info"
+          class="login_info"
+          name="username"
           type="text"
           placeholder="Email or phone number"
           required
         />
         <input
-          class="mid_info"
+          class="login_info"
+          name="password"
           type="password"
           placeholder="Password"
           required
         />
-        <input class="mid_button" type="submit" value="Log in" />
-        <input class="mid_button" type="submit" value="Sign up" />
+        <input class="login_btn" type="submit" value="Log in" />
+        <input class="login_btn" type="submit" value="Sign up" />
         <a href="https://www.naver.com/">If you find BamBoo account?</a>
       </form>
     </main>

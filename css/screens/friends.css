@@ -1,0 +1,101 @@
+.friends_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10vh 0;
+}
+
+.friends_title > h2 {
+  margin-left: 2vw;
+  font-size: 3em;
+  font-weight: 700;
+  color: var(--green);
+}
+
+.friends_icon {
+  margin-right: 2vw;
+  font-size: 2em;
+  opacity: 0.2;
+}
+
+.friends_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friends_search-bar {
+  width: 80vw;
+  height: 5vh;
+  border: none;
+  border-bottom: 1px solid var(--green);
+}
+
+.friends_search-bar::placeholder {
+  color: lightgrey;
+}
+
+.friends_list {
+  display: flex;
+  align-items: center;
+  margin: 5vh 10vw;
+}
+
+.friends_profile {
+  width: 5em;
+  height: 5em;
+  border-radius: 25px;
+  background-image: url('https://picsum.photos/100/100?random=1');
+}
+
+.friends_name {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 0 1em;
+  color: var(--green);
+}
+
+.community_upper-line {
+  margin: 0vh 10vw;
+  border-top: 1px dotted var(--green);
+  color: var(--green);
+  padding: 10px 0;
+  font-size: 0.8em;
+  opacity: 0.4;
+}
+
+.community_name {
+  margin: 5vh 10vw;
+  display: flex;
+  align-items: center;
+}
+
+.community_profile,
+.community_profile_2 {
+  width: 4em;
+  height: 4em;
+  border-radius: 15px;
+}
+
+.community_profile {
+  background-image: url('https://picsum.photos/100/100?random=2');
+}
+
+.community_profile_2 {
+  background-image: url('https://picsum.photos/100/100?random=3');
+}
+
+.community_name_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.community_name_wrapper > span {
+  margin-left: 2vw;
+  font-size: 1.5em;
+}
+
+.community_name_wrapper > i {
+  opacity: 0.4;
+}
