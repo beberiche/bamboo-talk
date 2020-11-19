@@ -4,6 +4,7 @@
 @import 'screens/login.css';
 @import 'components/nav-bar.css';
 @import 'screens/friends.css';
+@import 'components/title&icon.css';
 
 body {
   width: 100%;

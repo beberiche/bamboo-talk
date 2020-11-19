@@ -1,21 +1,6 @@
-.friends_title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10vh 0;
-}
-
-.friends_title > h2 {
-  margin-left: 2vw;
-  font-size: 3em;
-  font-weight: 700;
-  color: var(--green);
-}
-
-.friends_icon {
-  margin-right: 2vw;
-  font-size: 2em;
-  opacity: 0.2;
+main {
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .friends_search {
@@ -25,7 +10,7 @@
 }
 
 .friends_search-bar {
-  width: 80vw;
+  width: 100%;
   height: 5vh;
   border: none;
   border-bottom: 1px solid var(--green);
@@ -35,10 +20,11 @@
   color: lightgrey;
 }
 
-.friends_list {
+.friends_list,
+.community_name {
   display: flex;
   align-items: center;
-  margin: 5vh 10vw;
+  margin: 5vh 0;
 }
 
 .friends_profile {
@@ -56,18 +42,11 @@
 }
 
 .community_upper-line {
-  margin: 0vh 10vw;
   border-top: 1px dotted var(--green);
   color: var(--green);
-  padding: 10px 0;
+  padding: 1em 0;
   font-size: 0.8em;
   opacity: 0.4;
-}
-
-.community_name {
-  margin: 5vh 10vw;
-  display: flex;
-  align-items: center;
 }
 
 .community_profile,
