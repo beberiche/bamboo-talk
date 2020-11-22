@@ -1,0 +1,45 @@
+.setting_screen {
+  width: 95vw;
+}
+
+.setting_titles {
+  font-size: 2em;
+  text-align: center;
+  color: var(--green);
+  margin: 3vh 0;
+}
+
+.setting_layout {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.setting_blank {
+  border-bottom: 1px solid lightgray;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.setting_blank > i {
+  width: 70px;
+}
+
+.setting_blank > span {
+  width: 100%;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+#none_border {
+  border: none;
+}
+
+.setting_division {
+  width: 100%;
+  border: 1px solid var(--green);
+  margin: 2.5vh 0;
+}

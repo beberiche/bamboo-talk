@@ -1,0 +1,43 @@
+.more_profile {
+  border-radius: 2em;
+}
+
+.more_text {
+  margin-left: 1vw;
+}
+
+.more_text > span {
+  color: var(--green);
+  font-weight: 700;
+}
+.more_name {
+  margin: 2.5vh 0;
+  position: relative;
+}
+
+.more_icon {
+  color: var(--green);
+  font-size: 1.5em;
+  position: absolute;
+  right: 0%;
+}
+
+.more_icons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+  margin: 5vh 0;
+}
+
+.suggestions {
+  margin: 3vh 0;
+  padding: 3vh 0;
+  border-top: 1px solid;
+  opacity: 0.2;
+}
+
+.more_icon_wrapper > i {
+  color: black;
+  opacity: 0.4;
+  cursor: pointer;
+}

@@ -1,18 +1,24 @@
 .status-bar {
+  width: 95vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px 10px;
+  margin: 1vh auto;
+  position: relative;
 }
 
-.top_left > span {
-  padding-right: 10px;
+.top_left > i {
+  margin-left: 0.5vw;
 }
 
 .top_center {
   font-weight: 700;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .fa-battery-full {
   color: #27ae60;
+  margin-left: 0.5vw;
 }

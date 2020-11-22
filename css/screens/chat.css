@@ -1,0 +1,107 @@
+.chat_room {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cr_date {
+  height: 5vh;
+  padding: 0 5vw;
+  background-color: var(--green);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vw;
+}
+
+.chat_message {
+  margin: 3vh 0;
+}
+
+.cm_text {
+  display: flex;
+  column-gap: 2vw;
+  position: relative;
+}
+
+.cm_text > img {
+  border-radius: 25px;
+}
+
+.cm_font {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 5px;
+  position: absolute;
+  top: 10px;
+  margin-left: 55px;
+}
+
+.cm_font > span {
+  font-size: 0.8em;
+}
+
+.cm_font > p {
+  opacity: 0.5;
+  background-color: var(--green);
+  border-radius: 0 25px 25px 25px;
+  padding: 1vh 1vh;
+  padding-left: 1vh;
+  max-width: 60vw;
+}
+
+.chat_message2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cm_text2 {
+  display: flex;
+}
+
+.cm_text2 > img {
+  order: 1;
+}
+
+.cm_font2 {
+  margin-left: 0;
+  right: 55px;
+}
+
+.cm_font2 > span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cm_font2 > p {
+  border-radius: 25px 0 25px 25px;
+  padding-left: 2vw;
+}
+
+.typing {
+  height: 5vh;
+  background-color: var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typing > input {
+  height: 3vh;
+  border: none;
+  border-radius: 1.5vh;
+  width: 90vw;
+  display: flex;
+  position: relative;
+  padding-left: 2vw;
+}
+
+.typing > i {
+  position: absolute;
+  right: 7vw;
+  cursor: pointer;
+  color: var(--green);
+}

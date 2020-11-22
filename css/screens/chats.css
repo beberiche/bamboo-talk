@@ -1,0 +1,38 @@
+.chat_text {
+  height: 4em;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60vw;
+}
+
+.chat_text > p {
+  margin-left: 2vw;
+  opacity: 0.4;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.chat_profile {
+  width: 4em;
+  height: 4em;
+}
+
+#chat_play {
+  color: var(--green);
+  opacity: 1;
+}
+
+.chat_time {
+  height: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  right: 10vw;
+}
+
+.chat_time > span {
+  font-size: 1em;
+  opacity: 0.4;
+}

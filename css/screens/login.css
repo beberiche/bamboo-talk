@@ -13,7 +13,7 @@
 
 .login_text {
   font-size: 1.5em;
-  line-height: 40px;
+  line-height: 1.5em;
   letter-spacing: 1px;
 }
 
@@ -32,7 +32,7 @@ form {
 }
 
 .login_info {
-  padding: 20px 0;
+  padding: 1em 0;
   border: none;
   border-bottom: 1px solid var(--green);
   font-size: 1.3em;
@@ -51,7 +51,7 @@ form {
 
 .login_btn {
   border: none;
-  padding: 20px;
+  padding: 1em;
   background-color: var(--green);
   color: #fff;
   font-size: 1.2em;

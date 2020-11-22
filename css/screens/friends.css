@@ -39,6 +39,7 @@ main {
   font-weight: 700;
   padding: 0 1em;
   color: var(--green);
+  position: relative;
 }
 
 .community_upper-line {
@@ -53,7 +54,7 @@ main {
 .community_profile_2 {
   width: 4em;
   height: 4em;
-  border-radius: 15px;
+  border-radius: 1.7em;
 }
 
 .community_profile {
@@ -65,9 +66,9 @@ main {
 }
 
 .community_name_wrapper {
-  width: 100%;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .community_name_wrapper > span {
@@ -77,4 +78,10 @@ main {
 
 .community_name_wrapper > i {
   opacity: 0.4;
+  position: absolute;
+  right: 10vw;
+}
+
+.setting {
+  color: inherit;
 }

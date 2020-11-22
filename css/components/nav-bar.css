@@ -29,18 +29,18 @@ footer {
 }
 
 .nav_notification {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  font-size: 20px;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  font-size: 0.5em;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--green);
   position: absolute;
-  left: 20px;
-  bottom: 15px;
+  left: 1em;
+  bottom: 1em;
 }
 
 .nav_icon:nth-child(4) {
@@ -48,16 +48,16 @@ footer {
 }
 
 .nav_dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 3.5px;
-  font-size: 20px;
+  width: 0.2em;
+  height: 0.2em;
+  border-radius: 50%;
+  font-size: 0.5em;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--green);
   position: absolute;
-  left: 35px;
-  bottom: 35px;
+  left: 2.5em;
+  bottom: 2em;
 }
