@@ -29,3 +29,27 @@ a {
 *:focus {
   outline: none;
 }
+
+.none {
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  background-color: var(--green);
+  position: absolute;
+  top: 0;
+}
+
+.none > div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .none {
+    display: none;
+  }
+}
